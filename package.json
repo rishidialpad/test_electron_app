@@ -1,0 +1,19 @@
+{
+  "name": "my-electron-app",
+  "productName": "My Test Application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "prepare": "electron-rebuild "
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "21.3.0",
+    "electron-packager": "^17.1.1",
+    "electron-rebuild": "^3.2.9"
+  }
+}
